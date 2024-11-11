@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Path Visualization</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <label for="new-city">New City:</label>
+            <input type="text" id="new-city">
+            <button id="add-city">Add City</button>
+        </div>
+        <div>
+            <label for="edge-city1">City 1:</label>
+            <input type="text" id="edge-city1">
+            <label for="edge-city2">City 2:</label>
+            <input type="text" id="edge-city2">
+            <label for="edge-weight">Distance:</label>
+            <input type="number" id="edge-weight">
+            <button id="add-edge">Add Path</button>
+        </div>
+        <div>
+            <label for="start-city">Departure:</label>
+            <select id="start-city"></select>
+            <label for="end-city">Arrival:</label>
+            <select id="end-city"></select>
+            <button id="visualize-path">Visualize Path</button>
+        </div>
+        <canvas id="map"></canvas>
+        <div id="notification">Distance traveled: 0 km</div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
