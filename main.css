@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: orange; /* Set the body background to orange */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+div, canvas {
+    background-color: white; /* Set the content and graph box background to white */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+div {
+    margin-bottom: 10px;
+}
+canvas {
+    border: 1px solid #ccc;
+    width: 800px; /* Adjust the width as needed */
+    height: 600px; /* Adjust the height as needed */
+}
+
+
+
+
+
+
+
+
+
